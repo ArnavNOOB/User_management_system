@@ -1,4 +1,4 @@
-# Geeknito User Management System (Node.js & Express)
+# User Management System (Node.js & Express)
 
 A secure, minimal user directory portal built with **Node.js, Express.js, MongoDB Atlas, and Bootstrap 5**. This system features dual-role access control (Admin vs User), dynamic rendering via EJS templating, secure password hashing, and a robust file storage service supporting local disk storage and Cloudinary integration.
 
