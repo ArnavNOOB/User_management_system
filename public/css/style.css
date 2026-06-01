@@ -1,0 +1,126 @@
+/* Minimal Beige Design System */
+body {
+  background-color: #f4efe6; /* Smooth warm beige */
+  color: #4a4538; /* Soft dark charcoal-brown */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  min-height: 100vh;
+}
+
+/* Card Styling */
+.card {
+  background-color: #ffffff;
+  border: 1px solid #e5dfd3;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(120, 100, 80, 0.05);
+}
+
+.card-header {
+  background-color: #faf8f5;
+  border-bottom: 1px solid #e5dfd3;
+  color: #786450;
+  font-weight: 600;
+}
+
+/* Form Controls */
+.form-control, .form-select {
+  border: 1px solid #d9d2c4;
+  background-color: #fcfbfa;
+  color: #4a4538;
+}
+
+.form-control:focus, .form-select:focus {
+  border-color: #c4b9a3;
+  box-shadow: 0 0 0 0.2rem rgba(196, 185, 163, 0.25);
+  background-color: #ffffff;
+}
+
+/* Buttons styling using beige theme colors */
+.btn-beige {
+  background-color: #8c7853;
+  border-color: #8c7853;
+  color: #ffffff;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-beige:hover {
+  background-color: #756342;
+  border-color: #756342;
+  color: #ffffff;
+}
+
+.btn-outline-beige {
+  color: #8c7853;
+  border-color: #8c7853;
+}
+
+.btn-outline-beige:hover {
+  background-color: #8c7853;
+  color: #ffffff;
+}
+
+/* Custom Table Styles */
+.table-beige {
+  --bs-table-bg: #ffffff;
+  --bs-table-striped-bg: #faf8f5;
+  --bs-table-hover-bg: #f5f1e9;
+  border-color: #e5dfd3;
+}
+
+.table-beige th {
+  background-color: #f0eae1;
+  color: #61533b;
+  font-weight: 600;
+}
+
+/* Profile Picture Frame */
+.profile-pic-container {
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid #e5dfd3;
+  background-color: #fbf9f6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-pic-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Small Profile Pic in Navbar / Tables */
+.profile-pic-sm {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid #d9d2c4;
+}
+
+/* Navbar */
+.navbar-beige {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e5dfd3;
+}
+
+.navbar-beige .navbar-brand {
+  color: #786450;
+  font-weight: 700;
+}
+
+/* Tab Active overrides */
+.nav-tabs .nav-link {
+  color: #786450;
+}
+
+.nav-tabs .nav-link.active {
+  background-color: #ffffff;
+  border-color: #e5dfd3 #e5dfd3 #ffffff;
+  color: #8c7853;
+  font-weight: bold;
+}
