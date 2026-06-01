@@ -64,27 +64,6 @@ Upon start, the database seeds the sole admin account:
 
 ---
 
-## 🚀 Running the Application
-
-1. Open your terminal inside the project directory (`c:\Arnav\User_management_system`).
-2. Boot up the server in development mode:
-   ```bash
-   node server.js
-   ```
-3. Once the database connection is successfully established, you will see a message:
-   ```
-   Successfully connected to MongoDB Atlas: cluster0-shard-xxx.mongodb.net/user_management
-   SUCCESS: Admin profile seeded successfully!
-   Credentials:
-   Email:    admin@gmail.com
-   Password: Admin@123
-   
-   Server is running in development mode on port 3000
-   Open http://localhost:3000 in your web browser
-   ```
-4. Access the web interface at **[http://localhost:3000](http://localhost:3000)**.
-
----
 
 ## 🛡️ Key System Architecture Features
 
